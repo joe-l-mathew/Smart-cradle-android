@@ -12,8 +12,9 @@ class LoadingScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Image.asset('assets/animation/logo.png'),
           const SizedBox(
-            height: 100,
+            height: 50,
           ),
           const Center(
             child: Text(
@@ -24,6 +25,13 @@ class LoadingScreen extends StatelessWidget {
           ),
           const SizedBox(
             height: 30,
+          ),
+          const Text(
+            "DEPARTMENT OF MECHANICAL ENGINEERING",
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(
+            height: 10,
           ),
           const Text(
             "VIMAL JYOTHI ENGINNERING COLLEGE KANNUR",

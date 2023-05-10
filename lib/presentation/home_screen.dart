@@ -9,6 +9,7 @@ import 'package:smart_cradle/presentation/widgets/time_page_widget.dart';
 import 'package:smart_cradle/provider/timer_provider.dart';
 
 import '../functions/show_pee_popup.dart';
+import 'loading_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -115,7 +116,7 @@ class HomeScreen extends StatelessWidget {
           } else if (snapshot.hasError) {
             return Text('Error: ${snapshot.error}');
           } else {
-            return CircularProgressIndicator();
+            return const LoadingScreen();
           }
         });
   }
