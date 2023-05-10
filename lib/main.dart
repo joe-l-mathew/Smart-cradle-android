@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:smart_cradle/presentation/home_screen.dart';
+import 'package:smart_cradle/presentation/loading_screen.dart';
 import 'package:smart_cradle/provider/timer_provider.dart';
 
 void main() async {
@@ -21,12 +22,13 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => TimerProvider()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Smart Cradle',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const HomeScreen(),
+        home: LoadingScreen(),
       ),
     );
   }

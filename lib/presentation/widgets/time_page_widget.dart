@@ -1,6 +1,7 @@
 import 'package:duration_picker/duration_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:smart_cradle/repository/firebase_db_functions.dart';
 
 import '../../provider/timer_provider.dart';
 
@@ -43,6 +44,7 @@ class _TimerPageState extends State<TimerPage> {
                 if (_duration.inMinutes != 0) {
                   Provider.of<TimerProvider>(context, listen: false)
                       .changeTime(_duration.inMinutes);
+                  FirebaseDbFunctions().turnOnOffCradle(true);
                   Navigator.pop(context);
                 }
               },
