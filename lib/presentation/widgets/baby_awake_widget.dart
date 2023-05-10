@@ -30,15 +30,15 @@ class BabyAwakeWidget extends StatelessWidget {
           ? Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                Lottie.asset("assets/animation/babyAwake.json"),
                 const TileTitle(title: "BABY AWAKE"),
-                Lottie.asset("assets/animation/babyAwake.json")
               ],
             )
           : Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                Lottie.asset("assets/animation/babySleeping.json"),
                 const TileTitle(title: "BABY SLEEPING"),
-                Lottie.asset("assets/animation/babySleeping.json")
               ],
             ),
     );
