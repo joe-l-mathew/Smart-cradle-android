@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "638674334681",
+    "firebase_url": "https://smart-cra-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-cra",
+    "storage_bucket": "smart-cra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638674334681:android:0872f2389044d66b079fc8",
+        "android_client_info": {
+          "package_name": "com.example.smart_cradle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638674334681-pdomuca72ssn434ocjgu2v9hsom3uola.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVan6ei2z_Vi5f1_xfKUtEJh8BJGBV-n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638674334681-pdomuca72ssn434ocjgu2v9hsom3uola.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
