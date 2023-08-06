@@ -3,6 +3,8 @@
 A flutter project which aims connecting IOT devices like Esp8266 with mobile application over Firebase Realtime DB. The project was done as part of my final year project.
 The project aims in automating and taking care of a baby using Frequency detection using Arduino Uno. 
 
+State Management used: Provider
+
 # Application Features
 - Sent and recieve real time data from the firebase realtime DB
 - Display the status and other details from the db
